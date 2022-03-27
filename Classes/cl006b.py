@@ -1,0 +1,6 @@
+num1 = input('Digite um número: ')
+num2 = input('Digite outro número: ')
+soma = int(num1) + int(num2)
+print(soma)
+print('{} e {} são numéricos: {} {}'.format(num1, num2, num1.isnumeric(), num2.isnumeric()))
+print('{} e {} são letras: {} {}'.format(num1, num2, num1.isalpha(), num2.isalpha()))
